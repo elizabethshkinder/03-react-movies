@@ -48,7 +48,7 @@ export default function App() {
   return (
     <div>
       <SearchBar onSubmit={handleSearch} />
-      <Toaster position="top-right" />
+      <Toaster position="top-center" />
 
       {isLoading && <Loader />}
       {!isLoading && isError && <ErrorMessage />}
